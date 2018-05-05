@@ -21,7 +21,7 @@ function currentLine(names){
   var nameList = "The line is currently: "
 
   for (var i= 0; i < names.length; i++) {
-    nameList += `${i+1}. ${names[i]}, `
+    nameList += `, ${i+1}. ${names[i]} `
   } 
   return nameList
 }
