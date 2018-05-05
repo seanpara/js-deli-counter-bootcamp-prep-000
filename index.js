@@ -17,5 +17,10 @@ function currentLine(line){
   if (line.length === 0) {
     return "The line is currently empty."
   }
-   
+  
+  var nameList = "The line is currently: "
+
+  for (i= 0; i < names.length; i++) {
+  nameList += ` ${i+1}. ${names[i]}`
+} 
 }
